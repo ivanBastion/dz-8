@@ -1,0 +1,15 @@
+.yellow{
+    color:yellow;
+}
+.greycol{
+    color:grey;
+}
+h3:first-child{
+    color: pink;
+}
+div:last-child{
+    color: red;
+}
+p:not(:last-child){
+    color: green;
+}
