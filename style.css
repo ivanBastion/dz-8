@@ -1,15 +1,34 @@
-.yellow{
-    color:yellow;
+.yellow {
+    color: yellow;
 }
-.greycol{
-    color:grey;
+
+.greycol {
+    color: grey;
 }
-h3:first-child{
+
+h3:first-child {
     color: pink;
 }
-div:last-child{
+
+div:last-child {
     color: red;
 }
-p:not(:last-child){
+
+p:not(:last-child) {
     color: green;
+}
+ul:not( :first-child){
+    color: blue;
+}
+ul:only-child{
+    color: violet;
+}
+ul:not(:last-child){
+    color: blueviolet
+}
+ul:last-child{
+    color: grey;
+}
+ul:first-child{
+    color: pink;
 }
