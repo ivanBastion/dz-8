@@ -17,7 +17,7 @@ div:last-child {
 p:not(:last-child) {
     color: green;
 }
-ul:not( :first-child){
+ul:not(:first-child){
     color: blue;
 }
 ul:only-child{
