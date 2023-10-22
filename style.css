@@ -2,18 +2,18 @@
     color: yellow;
 }
 
-.greycol {
-    color: grey;
-}
 
 h3:first-child{
     color: pink;
 }
 
-div:last-child{
+div>div>p{
     color: red;
 }
 
 p:not(:last-child) {
     color: green;
+}
+.text-boxa>p#greycol {
+    color: grey;
 }
